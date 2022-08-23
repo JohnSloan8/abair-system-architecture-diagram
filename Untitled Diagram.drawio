@@ -1,32 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T12:46:12.141Z" agent="5.0 (X11)" etag="EeuKX68iIfR3ezo6INU0" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T12:57:04.172Z" agent="5.0 (X11)" etag="EPxUXbjqztMkX2Zgcuv1" version="20.2.6" type="github">
   <diagram id="iL3Ci0VHsfsv6P6rhu0O" name="Page-1">
     <mxGraphModel dx="1422" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GIwCOrzvr7B7RTmfqrwE-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="50" y="50" width="750" height="750" as="geometry" />
+        <mxCell id="GIwCOrzvr7B7RTmfqrwE-1" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Abair&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;fontSize=24;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="790" height="790" as="geometry" />
         </mxCell>
-        <mxCell id="GIwCOrzvr7B7RTmfqrwE-2" value="Synthesis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="GIwCOrzvr7B7RTmfqrwE-10" value="Fíonn Server" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;labelPosition=center;verticalLabelPosition=middle;fontStyle=1;spacingTop=0;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="GIwCOrzvr7B7RTmfqrwE-3" value="Recognition" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="230" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="GIwCOrzvr7B7RTmfqrwE-4" value="Phonetics V3 Server" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;labelPosition=center;verticalLabelPosition=middle;fontStyle=1;spacingTop=0;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="270" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="GIwCOrzvr7B7RTmfqrwE-4" value="Phonetics V3 Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="190" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GIwCOrzvr7B7RTmfqrwE-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GIwCOrzvr7B7RTmfqrwE-4" target="GIwCOrzvr7B7RTmfqrwE-2">
+        <mxCell id="GIwCOrzvr7B7RTmfqrwE-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GIwCOrzvr7B7RTmfqrwE-8" target="GIwCOrzvr7B7RTmfqrwE-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="190" as="sourcePoint" />
-            <mxPoint x="200" y="140" as="targetPoint" />
+            <mxPoint x="150" y="340" as="sourcePoint" />
+            <mxPoint x="155" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GIwCOrzvr7B7RTmfqrwE-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="GIwCOrzvr7B7RTmfqrwE-3">
+        <mxCell id="GIwCOrzvr7B7RTmfqrwE-8" value="Synthesis API" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="90" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIwCOrzvr7B7RTmfqrwE-9" value="Recognition API" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="220" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIwCOrzvr7B7RTmfqrwE-11" value="Synthesis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIwCOrzvr7B7RTmfqrwE-12" value="Setanta Server" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;labelPosition=center;verticalLabelPosition=middle;fontStyle=1;spacingTop=0;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="220" y="220" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GIwCOrzvr7B7RTmfqrwE-13" value="Recognition" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIwCOrzvr7B7RTmfqrwE-14" value="Abair Server" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;labelPosition=center;verticalLabelPosition=middle;fontStyle=1;spacingTop=0;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="390" y="430" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GIwCOrzvr7B7RTmfqrwE-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GIwCOrzvr7B7RTmfqrwE-9" target="GIwCOrzvr7B7RTmfqrwE-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="190" as="sourcePoint" />
-            <mxPoint x="270" y="140" as="targetPoint" />
+            <mxPoint x="280" y="370" as="sourcePoint" />
+            <mxPoint x="290" y="320" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GIwCOrzvr7B7RTmfqrwE-15" value="Gramadoir" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;labelPosition=center;verticalLabelPosition=middle;fontStyle=1;spacingTop=0;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="390" y="30" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GIwCOrzvr7B7RTmfqrwE-16" value="Grammar Checker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="400" y="60" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
