@@ -1,0 +1,123 @@
+
+phoneticsrv3:
+
+mileglor
+
+Redirect        /mileglor       /studio/ga/recorder
+/studio/                http://127.0.0.1:2121/  retry=0
+/static                 http://127.0.0.1:2121/static
+/studioaction                 http://127.0.0.1:2121/studioaction
+
+
+CODE: https://phoneticsrv3.lcs.tcd.ie/gitea/christoph/loads
+COMMENT: looks wrong with the /static proxy..
+
+
+
+
+transcription-editor ?? Not working - what is it? Old stuff..
+/transcription-editor                   http://127.0.0.1:7377
+
+
+
+Testing api2, not always up
+/directapi                      http://127.0.0.1:8000
+
+
+
+
+recognition server                                                                                                                     
+/rec                    http://134.226.88.174:9993/rec
+
+old test proxy, doesn't work now, check for code!
+/rec_apitest                    http://134.226.88.174:9999/rec
+
+
+
+pos tagger                                                                                                                             
+/irishfst/api                   http://127.0.0.1:6789
+example: https://phoneticsrv3.lcs.tcd.ie/irishfst/api?text=d%27fh%C3%B3gair%20an%20t-aire
+https://phoneticsrv3.lcs.tcd.ie/test_irishfst.html not working, cors blocked
+
+
+
+gitea                                                                                                                                          
+/gitea                  http://127.0.0.1:3000   retry=0
+
+
+lts transcription
+/lts                    http://127.0.0.1:2029
+get example: https://phoneticsrv3.lcs.tcd.ie/lts/transcription?input=abair&locale=ga_MU&format=json&postlex=false&legacy=false
+post example:
+    url = "https://phoneticsrv3.lcs.tcd.ie/lts/transcription"
+    params = {
+        "input":text,
+        "locale":locale,
+        "format":"json",
+        "postlex":"false",
+        "legacy":"false"
+    }
+
+    res = requests.post(url, json=params)
+    data = json.loads(json.loads(res.text))
+
+CODE: https://phoneticsrv3.lcs.tcd.ie/gitea/abair-software/ltsserver-rest (Christoph)
+
+
+
+/dnn_demo                       http://127.0.0.1:9090/dnn_demo
+example: /dnn_demo/synthesise/dms_ga_antoileanach/abair
+CODE: https://phoneticsrv3.lcs.tcd.ie/gitea/abair-software/nnmnkwii_tests (Harald)
+
+/bunamo                 http://127.0.0.1:9000/bunamo
+/gramsrv                http://127.0.0.1:10001
+
+/nemo           http://134.226.88.174:8899
+/nemotest               http://127.0.0.1:8123
+
+/fionn_tensorboard                      http://134.226.88.174:6006
+
+
+
+abair.ovh:
+
+
+/aac_irish              http://127.0.0.1:8000/
+
+
+webreader                                                                                                                                         
+/webreader              http://127.0.0.1:5678/webreader
+
+scéalaí                                                                                                                                          
+/anscealaibackend                       http://127.0.0.1:4000   retry=0
+/qa/anscealaibackend                    http://127.0.0.1:4002   retry=0
+
+taidhgín                                                                                                                                          
+/ttbackend                      http://127.0.0.1:4500   retry=0
+
+abairie.jar server                                                                                                                        
+
+ProxyPassMatch          ^/((ga|en)/*|$)         http://127.0.0.1:8089/  retry=0
+ProxyPass               /products                       http://127.0.0.1:8089/products
+ProxyPass               /static                 http://127.0.0.1:8089/static
+ProxyPass               /action                 http://127.0.0.1:8089/action
+
+CODE: https://phoneticsrv3.lcs.tcd.ie/gitea/christoph/abairie
+
+
+fastapi synthesis api                                                                                                                 
+/api2           http://127.0.0.1:9911
+
+testing new fastapi API (not always on)
+
+/directapi              http://127.0.0.1:8000
+
+/lts                    http://127.0.0.1:2029
+
+lon don leon app                                                                                                                   
+/learnirish             http://127.0.0.1:16000
+
+
+
+
+
